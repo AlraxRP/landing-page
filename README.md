@@ -1,1 +1,1 @@
-# landing-page
+The objetive of this project is to build a web page from scratch, using the flex layout.
