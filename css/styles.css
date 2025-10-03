@@ -1,0 +1,96 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero
+{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 250px;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+ul a
+{
+    text-decoration: none;
+}
+
+.hero-content
+{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 70px;
+}
+
+.hero-message
+{
+    flex-direction: column;
+    padding: 16px 0;
+}
+
+.hero-message h2, .hero-message p
+{
+    margin-bottom: 8px;
+}
+
+.hero-image
+{
+    border: black;
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 1200px;
+}
+
+.hero h2
+{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero p, .header a
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero h1
+{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button
+{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 30px;
+    font-weight: bold;
+    border-radius: 15%;
+}
