@@ -94,3 +94,110 @@ button
     font-weight: bold;
     border-radius: 15%;
 }
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.information
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.information h2
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards
+{
+    display: flex;
+    gap: 50px;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    text-align: center;
+    gap: 8px;
+}
+
+.image
+{
+    border: solid #3882F6;
+    border-radius: 10%;
+    height: 120px;
+}
+
+.quote-message
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 275px;
+}
+
+.quote-message .quote
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote-message .author
+{
+    align-self: flex-end;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.sign-up
+{
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container
+{
+    background-color: #3882F6;
+    display: flex;
+    padding: 50px 70px;
+    gap: 70px;
+    border-radius: 5%;
+    
+}
+
+.sign-up-information h2, .sign-up-information p
+{
+    color: #F9FAF8;
+}
+
+.sign-up-information button
+{
+    border: #F9FAF8;
+}
+
+.footer
+{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #F9FAF8;
+}
