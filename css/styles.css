@@ -86,7 +86,7 @@ ul a
     color: #F9FAF8;
 }
 
-button
+.hero button
 {
     background-color: #3882F6;
     color: #F9FAF8;
@@ -166,7 +166,7 @@ button
 
 .sign-up
 {
-    padding: 100px 20px;
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,11 +175,11 @@ button
 .sign-up-container
 {
     background-color: #3882F6;
-    display: flex;
-    padding: 50px 70px;
-    gap: 70px;
     border-radius: 5%;
-    
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    padding: 50px 100px;
 }
 
 .sign-up-information h2, .sign-up-information p
@@ -187,9 +187,14 @@ button
     color: #F9FAF8;
 }
 
-.sign-up-information button
+.sign-up-container button
 {
-    border: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    padding: 0 40px;
+    font-weight: bold;
+    border-radius: 15%;
 }
 
 .footer
